@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+html {
+    --black: #000;
+    --orange: orange;
+    --yellow: yellow;
+    --orange-red: orangered;
+    --blue: #2194ff;
+    --green: #25D366;
+    --white: #fff;
+    --red: red;
+    --red-escuro: #cc0000;
+    --orange-escuro: #cc8400;
+    
+    --orangered-claro: #ff7440;
+    --green-escuro: #1ea952;
+    --blue-escuro: #0077e6;
+    --yellow-dessaturado: #e5e619;
+    --yellow-escuro: #cccc00;
+    --black-transparent: rgba(0, 0, 0, .5);
+    --transparent: transparent;
+    --white-transparent-less: rgba(255, 255, 255, .8);
+    --white-transparent-more: rgba(255, 255, 255, .6);
+}
+
+
+body {
+    background: var(--orange);
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    padding: 4vh 0 10vh 0;
+}
+
+header {
+    padding-top: 10px;
+}
+
+header .container_titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+header .container_titulo .titulo {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+header .container_titulo .img_logo {
+    height: 45px;
+}
+
+
+footer {
+    padding-bottom: 20px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 20px;
+    color: var(--black);
+    font-weight: bold;
+}
+
+
+@media screen and (min-width: 601px) {
+    header {
+        padding-top: 15px;
+    }
+
+    header .container_titulo .titulo {
+        font-size: 28px;
+    }
+
+    header .container_titulo .img_logo {
+        height: 55px;
+    }
+
+    footer {
+        padding-bottom: 25px;
+    }
+
+    footer p {
+        font-size: 22px;
+    }
+}
+
+
+@media screen and (min-width: 901px) {
+    header {
+        padding-top: 20px;
+    }
+    
+    header .container_titulo .titulo {
+        font-size: 34px;
+    }
+
+    header .container_titulo .img_logo {
+        height: 65px;
+    }
+    
+    footer {
+        padding-bottom: 30px;
+    }
+    
+    footer p {
+        font-size: 24px;
+    }
+}
+
+
+@media screen and (prefers-color-scheme: dark) {
+    body {
+        background: var(--orange-escuro);
+    }
+    
+    header .container_titulo .titulo {
+        color: var(--white);
+    }
+    
+    footer p {
+        color: var(--white);
+    }
+}
