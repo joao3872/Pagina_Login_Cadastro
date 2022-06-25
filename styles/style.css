@@ -1,12 +1,10 @@
 main .container_login, .container {
     display: flex;
     justify-content: center;
-    /*flex-direction: column;
-    align-items: center;*/
+    align-items: center;
 }
 
 main .container_login .login, .container_cadastro {
-    position: absolute;
     width: 20rem;
     background: var(--white-transparent-more);
     border-radius: 20px;
