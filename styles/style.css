@@ -5,7 +5,6 @@ main .container_login, .container {
 }
 
 main .container_login .login, .container_cadastro {
-    display: block;
     background: var(--white-transparent-more);
     border-radius: 20px;
     box-shadow: 8px 5px 5px var(--black-transparent);
