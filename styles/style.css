@@ -1,8 +1,8 @@
 main .container_login, .container {
     display: flex;
     justify-content: center;
-    /*flex-direction: column;*/
-    align-items: center;
+    /*flex-direction: column;
+    align-items: center;*/
 }
 
 main .container_login .login, .container_cadastro {
