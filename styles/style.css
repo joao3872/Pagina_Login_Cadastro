@@ -10,6 +10,7 @@ main .container_login .login, .container_cadastro {
     box-shadow: 8px 5px 5px var(--black-transparent);
     position: absolute;
     width: 20rem;
+    top: 30px;
 }
 
 main .container_login .login .formulario {
