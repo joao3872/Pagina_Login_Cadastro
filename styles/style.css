@@ -8,10 +8,16 @@ main .container_login .login, .container_cadastro {
     background: var(--white-transparent-more);
     border-radius: 20px;
     box-shadow: 8px 5px 5px var(--black-transparent);
-    position: absolute;
-    width: 20rem;
-    margin-top: 140px;
 }
+
+@media screen and (max-width: 600px) {
+    main .container_login .login, .container_cadastro {
+        position: absolute;
+        width: 20rem;
+        margin-top: 140px;
+    }
+}
+
 
 main .container_login .login .formulario {
     background-image: url("../imagens/one_piece.png");
