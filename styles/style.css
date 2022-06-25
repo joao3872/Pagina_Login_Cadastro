@@ -10,7 +10,6 @@ main .container_login .login, .container_cadastro {
     border-radius: 20px;
     box-shadow: 8px 5px 5px var(--black-transparent);
     position: absolute;
-    width: 20rem;
 }
 
 main .container_login .login .formulario {
@@ -21,11 +20,13 @@ main .container_login .login .formulario {
 main .container_login .login .formulario, .formulario_cadastro {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     gap: 20px;
     margin: auto;
     padding: 25px 5px 5px 5px;
     border-radius: 20px 20px 0 0;
+    width: 20rem;
 }
 
 main .container_login .login .formulario .input_email, .input_senha, 
