@@ -9,7 +9,8 @@ main .container_login .login, .container_cadastro {
     border-radius: 20px;
     box-shadow: 8px 5px 5px var(--black-transparent);
     position: absolute;
-    width: 230px;
+    width: 20rem;
+    margin: 4vh 0 10vh 0;
 }
 
 main .container_login .login .formulario {
