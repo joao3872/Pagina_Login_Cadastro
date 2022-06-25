@@ -4,6 +4,7 @@ main .container_login, .container {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    background: brown;
 }
 
 main .container_login .login, .container_cadastro {
