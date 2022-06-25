@@ -5,12 +5,11 @@ main .container_login, .container {
 }
 
 main .container_login .login, .container_cadastro {
-    display: flex;
-    flex-direction: column;
-    width: 20rem;
     background: var(--white-transparent-more);
     border-radius: 20px;
     box-shadow: 8px 5px 5px var(--black-transparent);
+    position: absolute;
+    width: 230px;
 }
 
 main .container_login .login .formulario {
