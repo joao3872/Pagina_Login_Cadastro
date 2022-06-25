@@ -6,10 +6,10 @@ main .container_login, .container {
 }
 
 main .container_login .login, .container_cadastro {
-    width: 20rem;
     background: var(--white-transparent-more);
     border-radius: 20px;
     box-shadow: 8px 5px 5px var(--black-transparent);
+    width: 20rem;
 }
 
 main .container_login .login .formulario {
@@ -18,13 +18,13 @@ main .container_login .login .formulario {
 }
 
 main .container_login .login .formulario, .formulario_cadastro {
-    width: 20rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
     margin: auto;
     padding: 25px 5px 5px 5px;
+    width: 20rem;
     border-radius: 20px 20px 0 0;
 }
 
