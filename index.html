@@ -28,14 +28,28 @@
                 
                 <form action="#" class="formulario">
                 
-                    <input type="email" placeholder="E-mail..." class="input_email" id="inputs" />
+                    <input 
+                      type="email" 
+                      placeholder="E-mail..." 
+                      class="input_email" 
+                      id="inputs" 
+                      onfocus="esconder()" 
+                      onblur="revelar()"
+                    />
             
-                    <input type="password" placeholder="Senha..." class="input_senha" id="inputs" />
+                    <input 
+                      type="password" 
+                      placeholder="Senha..." 
+                      class="input_senha" 
+                      id="inputs" 
+                      onfocus="esconder()" 
+                      onblur="revelar()" 
+                    />
             
                     <input type="submit" value="Entrar" class="btn_entrar" />
                     
                 </form>
-                
+   
                 <div class="container_redefinir">
                     <a href="#" class="redefinir" onclick="abrirModal()">Esqueceu a senha ?</a>
                 </div>
