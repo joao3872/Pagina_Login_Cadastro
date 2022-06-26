@@ -11,3 +11,17 @@ function fecharModal() {
     fechar.style.display = 'none'
 }
 
+
+function esconder() {
+    var logo = document.querySelector('.container_titulo')
+    
+    logo.classList.add('active')
+}
+
+
+function revelar() {
+    var logo = document.querySelector('.container_titulo')
+    
+    logo.classList.remove('active')
+}
+
