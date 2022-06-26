@@ -53,6 +53,12 @@ header .container_titulo {
     gap: 8px;
 }
 
+@media screen and (max-width: 600px) {
+    header .container_titulo.active {
+        display: none;
+    }
+}
+
 header .container_titulo .titulo {
     font-family: 'Kdam Thmor Pro', sans-serif;
 }
