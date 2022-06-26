@@ -20,7 +20,6 @@ main .container_login .login .formulario {
 main .container_login .login .formulario, .formulario_cadastro {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     gap: 20px;
     margin: auto;
