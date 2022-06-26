@@ -1,15 +1,15 @@
 main .container_login, .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
 }
 
 main .container_login .login, .container_cadastro {
     background: var(--white-transparent-more);
     border-radius: 20px;
     box-shadow: 8px 5px 5px var(--black-transparent);
+    position: relative;
+    height: 100%;
     width: 20rem;
-    max-height: 25rem;
+    margin: auto;
 }
 
 main .container_login .login .formulario {
