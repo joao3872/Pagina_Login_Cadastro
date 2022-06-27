@@ -7,7 +7,7 @@ main .login, .cadastro {
 }
 
 main .login {
-    position: absolute;
+    position: relative;
     background: var(--white-transparent-more);
     border-radius: 20px;
 }
