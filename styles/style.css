@@ -1,4 +1,4 @@
-main .login, .cadastro {
+main .logi, .cadastro {
     position: relative;
     height: 100%;
     width: 20rem;
@@ -7,10 +7,8 @@ main .login, .cadastro {
 }
 
 main .login {
-    position: relative;
     background: var(--white-transparent-more);
     border-radius: 20px;
-    height: 100%;
 }
 
 main .login .formulario {
