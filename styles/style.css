@@ -182,18 +182,18 @@ main .modal_redefinir .modal .conteudo .btn_enviar:hover {
 
 
 
-/*main .container_cadastro .cadastro {
+main /*.container_cadastro*/ .cadastro {
     border-radius: 20px;
     padding-bottom: 13px;
     background-image: url("../imagens/one_piece2.png");
     background-size: 100% 100%;
-}*/
+}
 
 main /*.container_cadastro*/ .cadastro .formulario_cadastro {
-    border-radius: 20px;
+    /*border-radius: 20px;
     padding-bottom: 13px;
     background-image: url("../imagens/one_piece2.png");
-    background-size: 100% 100%;
+    background-size: 100% 100%;*/
     gap: 15px;
     margin-bottom: 13px;
 }
