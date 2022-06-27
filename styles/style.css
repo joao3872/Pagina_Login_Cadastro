@@ -1,4 +1,4 @@
-main .logi, .cadastro {
+main .login, .cadastro {
     position: relative;
     height: 100%;
     width: 20rem;
@@ -9,12 +9,15 @@ main .logi, .cadastro {
 main .login {
     background: var(--white-transparent-more);
     border-radius: 20px;
-}
-
-main .login .formulario {
-    background-image: url("../imagens/one_piece.png");
+    padding-bottom: 13px;
+    background-image: url("../imagens/one_piece2.png");
     background-size: 100% 100%;
 }
+
+/*main .login .formulario {
+    background-image: url("../imagens/one_piece.png");
+    background-size: 100% 100%;
+}*/
 
 main .login .formulario, .formulario_cadastro {
     display: flex;
