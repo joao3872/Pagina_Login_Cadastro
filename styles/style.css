@@ -1,4 +1,4 @@
-main .login, .cadastr {
+main .login > .cadastro {
     position: relative;
     height: 100%;
     width: 20rem;
