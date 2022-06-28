@@ -8,7 +8,7 @@
 
 ### Versão Mobile 📱:
 
-<img src="imagens/mobile.gif" height="500px" width="260px" />
+<img src="" height="500px" width="260px" />
 
 ### Tablet :
 
@@ -20,7 +20,7 @@
 
 ### Dark Mode Mobile 🌑:
 
-<img src="imagens/mobile_dark.gif" height="500px" width="260px" />
+<img src="" height="500px" width="260px" />
 
 ### Dark Mode Tablet 🌑:
 
