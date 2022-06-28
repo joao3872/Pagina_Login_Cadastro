@@ -4,9 +4,15 @@ main .login {
     border-radius: 20px;
     margin: auto;
     height: 100%;
-    width: 80%;
     box-shadow: 8px 5px 5px var(--black-transparent);
 }
+
+/*@media screen and (max-width: 600px) {
+    main .login {
+        width: 100%;
+        background: aquamarine;
+    }
+}*/
 
 main .login .formulario {
     background-image: url("../imagens/one_piece.png");
