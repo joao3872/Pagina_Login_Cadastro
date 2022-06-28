@@ -1,14 +1,11 @@
-main .login, .cadastro {
-    position: relative;
-    height: 100%;
-    width: 80%;
-    margin: auto;
-    box-shadow: 8px 5px 5px var(--black-transparent);
-}
-
 main .login {
+    position: relative;
     background: var(--white-transparent-more);
     border-radius: 20px;
+    margin: auto;
+    height: 100%;
+    width: 80%;
+    box-shadow: 8px 5px 5px var(--black-transparent);
 }
 
 main .login .formulario {
@@ -190,13 +187,13 @@ main /*.container_cadastro*/ .cadastro {
     padding-bottom: 13px;
     background-image: url("../imagens/one_piece2.png");
     background-size: 100% 100%;
+    width: 20rem;
+    height: 100%;
+    margin: auto;
+    box-shadow: 8px 5px 5px var(--black-transparent);
 }
 
 main /*.container_cadastro*/ .cadastro .formulario_cadastro {
-    /*border-radius: 20px;
-    padding-bottom: 13px;
-    background-image: url("../imagens/one_piece2.png");
-    background-size: 100% 100%;*/
     gap: 15px;
     margin-bottom: 13px;
 }
