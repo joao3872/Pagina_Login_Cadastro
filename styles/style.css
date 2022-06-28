@@ -187,7 +187,7 @@ main .modal_redefinir .modal .conteudo .btn_enviar:hover {
 
 
 
-main /*.container_cadastro*/ .cadastro {
+main .cadastro {
     border-radius: 20px;
     padding-bottom: 13px;
     background-image: url("../imagens/one_piece2.png");
@@ -198,38 +198,38 @@ main /*.container_cadastro*/ .cadastro {
     box-shadow: 8px 5px 5px var(--black-transparent);
 }
 
-main /*.container_cadastro*/ .cadastro .formulario_cadastro {
+main .cadastro .formulario_cadastro {
     gap: 15px;
     margin-bottom: 13px;
 }
 
-main /*.container_cadastro*/ .cadastro .formulario_cadastro .input_nome, .email, .senha, .repetir_senha {
+main .cadastro .formulario_cadastro .input_nome, .email, .senha, .repetir_senha {
     border-color: var(--blue);
 }
 
-main /*.container_cadastro*/ .cadastro .formulario_cadastro .btn_cadastrar {
+main .cadastro .formulario_cadastro .btn_cadastrar {
     border-color: var(--yellow);
     color: var(--yellow);
 }
 
-main /*.container_cadastro*/ .cadastro .formulario_cadastro .btn_cadastrar:hover {
+main .cadastro .formulario_cadastro .btn_cadastrar:hover {
     box-shadow: 0 .5em .5em -.4em var(--yellow);
     transform: translateY(-.25em);
 }
 
-main /*.container_cadastro*/ .cadastro .voltar {
+main .cadastro .voltar {
     font-weight: bold;
     font-size: 22px;
     margin: 0 35px;
     color: var(--orange-red);
 }
 
-main /*.container_cadastro*/ .cadastro .voltar:hover {
+main .cadastro .voltar:hover {
     margin-left: 25px;
     color: var(--orange);
 }
 
-main /*.container_cadastro*/ .cadastro a, .redefinir {
+main .cadastro a, .redefinir {
     cursor: default;
 }
 
@@ -292,12 +292,12 @@ main /*.container_cadastro*/ .cadastro a, .redefinir {
         color: var(--blue);
     }
     
-    main .container_cadastro .cadastro .voltar {
+    main .cadastro .voltar {
         font-size: 23px;
         color: var(--yellow);
     }
 
-    main .container_cadastro .cadastro .voltar:hover {
+    main .cadastro .voltar:hover {
         color: var(--orange-red);
     }
     
@@ -377,7 +377,7 @@ main /*.container_cadastro*/ .cadastro a, .redefinir {
         color: var(--blue);
     }
     
-    main .container_cadastro .cadastro .voltar {
+    main .cadastro .voltar {
         font-size: 24px;
     }
     
@@ -491,24 +491,24 @@ main /*.container_cadastro*/ .cadastro a, .redefinir {
         box-shadow: 0 .5em .5em -.4em var(--orangered-claro);
     }
 
-    main .container_cadastro .cadastro .formulario_cadastro .input_nome, .email, .senha, .repetir_senha {
+    main .cadastro .formulario_cadastro .input_nome, .email, .senha, .repetir_senha {
         border-color: var(--blue);
     }
     
-    main .container_cadastro .cadastro .formulario_cadastro .btn_cadastrar {
+    main .cadastro .formulario_cadastro .btn_cadastrar {
         border-color: var(--yellow-dessaturado);
         color: var(--yellow-dessaturado);
     }
     
-    main .container_cadastro .cadastro .formulario_cadastro .btn_cadastrar:hover {
+    main .cadastro .formulario_cadastro .btn_cadastrar:hover {
         box-shadow: 0 .5em .5em -.4em var(--yellow-dessaturado);
     }
     
-    main .container_cadastro .cadastro .voltar {
+    main .cadastro .voltar {
         color: var(--yellow-escuro);
     }
     
-    main .container_cadastro .cadastro .voltar:hover {
+    main .cadastro .voltar:hover {
         color: var(--orangered-claro);
     }
 }
