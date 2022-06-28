@@ -9,8 +9,7 @@ main .login {
 
 @media screen and (max-width: 600px) {
     main .login {
-        width: 100%;
-        background: aquamarine;
+        width: 20rem;
     }
 }
 
