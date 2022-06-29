@@ -1,6 +1,7 @@
 main .cadastro1 {
     position: relative;
     background: var(--white-transparent-more);
+    background-image: none;
     border-radius: 20px;
     margin: auto;
     height: 100%;
