@@ -1,4 +1,4 @@
-main .login {
+main .cadastro1 {
     position: relative;
     background: var(--white-transparent-more);
     border-radius: 20px;
@@ -8,17 +8,17 @@ main .login {
 }
 
 @media screen and (max-width: 600px) {
-    main .login {
+    main .cadastro1 {
         width: 20rem;
     }
 }
 
-main .login .formulario {
+main .cadastro1 .formulario {
     background-image: url("../imagens/one_piece.png");
     background-size: 100% 100%;
 }
 
-main .login .formulario, .formulario_cadastro {
+main .cadastro1 .formulario, .formulario_cadastro {
     display: flex;
     flex-direction: column;
     align-items: center;
