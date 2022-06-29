@@ -4,14 +4,9 @@ main .cadastro1 {
     background-image: none;
     border-radius: 20px;
     margin: auto;
+    width: 20rem;
     height: 100%;
     box-shadow: 8px 5px 5px var(--black-transparent);
-}
-
-@media screen and (max-width: 600px) {
-    main .cadastro1 {
-        width: 20rem;
-    }
 }
 
 main .cadastro1 .formulario {
@@ -29,7 +24,7 @@ main .cadastro1 .formulario, .formulario_cadastro {
     border-radius: 20px 20px 0 0;
 }
 
-main .login .formulario .input_email, .input_senha, 
+main .cadastro1 .formulario .input_email, .input_senha, 
 .input_nome, .email, .senha, .repetir_senha {
     width: 80%;
     background: var(--white-transparent-less);
@@ -44,7 +39,7 @@ main input {
     outline: 0;
 }
 
-main .login .formulario .btn_entrar, .btn_cadastrar {
+main .cadastro1 .formulario .btn_entrar, .btn_cadastrar {
     background: var(--transparent);
     padding: 8px 30px;
     border: 2px solid var(--green);
@@ -55,41 +50,41 @@ main .login .formulario .btn_entrar, .btn_cadastrar {
     color: var(--green);
 }
 
-main .login .formulario .btn_entrar:hover {
+main .cadastro1 .formulario .btn_entrar:hover {
     background: var(--green);
     color: var(--white);
     border-color: var(--white);
 }
 
-main .login .container_redefinir {
+main .cadastro1 .container_redefinir {
     display: flex;
     justify-content: flex-end;
     padding: 12px 30px;
 }
 
-main .login .container_redefinir .redefinir {
+main .cadastro1 .container_redefinir .redefinir {
     color: var(--blue);
     font-size: 16px;
 }
 
-main .login .container_redefinir .redefinir:hover {
+main .cadastro1 .container_redefinir .redefinir:hover {
     color: var(--orange-red);
 }
 
-main .login .secao_cadastro {
+main .cadastro1 .secao_cadastro {
     text-align: center;
     padding-top: 10px;
     border-radius: 0 0 20px 20px;
     padding-bottom: 20px;
 }
 
-main .login .secao_cadastro h1 {
+main .cadastro1 .secao_cadastro h1 {
     color: var(--black);
     font-size: 17px;
     margin-bottom: 15px;
 }
 
-main .login .secao_cadastro .btn_cadastro {
+main .cadastro1 .secao_cadastro .btn_cadastro {
     background: var(--transparent);
     border: 2px solid var(--blue);
     padding: 8px 16px;
@@ -99,7 +94,7 @@ main .login .secao_cadastro .btn_cadastro {
     color: var(--blue);
 }
 
-main .login .secao_cadastro .btn_cadastro:hover {
+main .cadastro1 .secao_cadastro .btn_cadastro:hover {
     color: var(--white);
     box-shadow: 0 .5em .5em -.4em var(--blue);
     transform: translateY(-.25em);
@@ -191,12 +186,15 @@ main .modal_redefinir .modal .conteudo .btn_enviar:hover {
 main .cadastro {
     border-radius: 20px;
     padding-bottom: 13px;
-    background-image: url("../imagens/one_piece2.png");
-    background-size: 100% 100%;
     width: 20rem;
     height: 100%;
     margin: auto;
     box-shadow: 8px 5px 5px var(--black-transparent);
+}
+
+main #cadastro {
+    background-image: url("../imagens/one_piece2.png");
+    background-size: 100% 100%;
 }
 
 main .cadastro .formulario_cadastro {
