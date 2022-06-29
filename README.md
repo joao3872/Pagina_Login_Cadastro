@@ -8,7 +8,7 @@
 
 ### Versão Mobile 📱:
 
-<img src="" height="500px" width="260px" />
+<img src="imagens/mobile1.gif" height="500px" width="260px" />
 
 ### Tablet :
 
@@ -20,7 +20,7 @@
 
 ### Dark Mode Mobile 🌑:
 
-<img src="" height="500px" width="260px" />
+<img src="imagens/mobile_dark.gif" height="500px" width="260px" />
 
 ### Dark Mode Tablet 🌑:
 
@@ -32,4 +32,4 @@
 
 ### Experimente você mesmo:
 
-<a href="https://joao3872.github.io/Pagina_Login_Cadastro/" target="_blank">Acesse Aqui</a>
+* #### <a href="https://joao3872.github.io/Pagina_Login_Cadastro/" target="_blank">Acesse Aqui</a>
