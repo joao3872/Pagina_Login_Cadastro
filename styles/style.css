@@ -1,7 +1,8 @@
 main .cadastro1 {
-    position: relative;
+    position: absolute;
     background: var(--white-transparent-more);
     background-image: none;
+    top: 5vh;
     border-radius: 20px;
     margin: auto;
     width: 20rem;
@@ -115,6 +116,8 @@ main .modal_redefinir {
 
 main .modal_redefinir .modal {
     background: var(--white);
+    position: absolute;
+    top: 4vh;
     width: 80%;
     margin: auto;
     border-radius: 0 20px;
