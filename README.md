@@ -33,3 +33,14 @@
 ### Experimente você mesmo:
 
 * #### <a href="https://joao3872.github.io/Pagina_Login_Cadastro/" target="_blank">Acesse Aqui</a>
+
+
+### Crédito das Imagens:
+
+<img src="imagens/one_piece.png" />
+
+* Fonte: <a href="https://www.google.com/amp/s/br.ign.com/one-piece-2/98999/news/one-piece-manga-entrara-em-hiato-em-junho-confira-a-data-de-retorno%3famp=1" target="_blank">IGN Brasil</a>
+
+<img src="imagens/one_piece2.png" />
+
+* Fonte: <a href="https://www.justwatch.com/br/serie/one-piece-1999" target="_blank">JustWatch</a>
