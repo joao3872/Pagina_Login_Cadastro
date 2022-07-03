@@ -1,12 +1,12 @@
 main .cadastro1 {
     position: relative;
-    background: var(--white-transparent-more);
-    background-image: none;
     border-radius: 20px;
-    margin: auto;
-    width: 20rem;
-    height: 100%;
+    width: 22rem;
+    background: var(--white-transparent-more);
     box-shadow: 8px 5px 5px var(--black-transparent);
+    margin: auto;
+    padding: 20px 0 30px 0;
+    margin-top: 5vh;
 }
 
 main .cadastro1 .formulario {
