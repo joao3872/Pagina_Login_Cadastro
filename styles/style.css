@@ -376,6 +376,22 @@ main .cadastro a, .redefinir {
     main .modal_redefinir .modal .conteudo .btn_enviar {
         font-size: 17px;
     }
+
+    main .cadastro .formulario_cadastro .container_exibir .exibirSenha {
+        margin: 3px 13px;
+        display: flex;
+        align-items: center;
+    }
+
+    main .cadastro .formulario_cadastro .container_exibir .exibirSenha span {
+        margin-right: 9px;
+        font-size: 21px;
+    }
+
+    main .cadastro .formulario_cadastro .container_exibir .exibirSenha .exibirText {
+        font-size: 17px;
+        font-weight: bold;
+    }
 }
 
 
@@ -568,9 +584,5 @@ main .cadastro a, .redefinir {
     
     main .cadastro .voltar:hover {
         color: var(--orangered-claro);
-    }
-
-    main .cadastro .formulario_cadastro .container_exibir .exibirSenha span, .exibirText {
-        color: var(--green-escuro);
     }
 }
