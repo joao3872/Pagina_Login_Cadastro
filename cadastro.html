@@ -7,6 +7,7 @@
     <title>AnimaOne - Cadastro</title>
     <link rel="stylesheet" href="styles/global.css">
     <link rel="stylesheet" href="styles/style.css">
+    <script src="script/script.js"></script>
     <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 </head>
 <body>
@@ -42,7 +43,6 @@
                       type="password" 
                       placeholder="Senha..." 
                       class="senha" 
-                      required 
                     />
                         
                     <input 
@@ -51,7 +51,18 @@
                       class="repetir_senha" 
                       required 
                     />
-                        
+
+
+                    <div class="container_exibir">
+                        <div class="exibirSenha">
+
+                            <span class="fas fa-eye" id="exibir"></span>
+                            <p>Exibir Senha</p>
+
+                        </div>
+                    </div>
+                    
+
                     <input type="submit" class="btn_cadastrar" />
                     
                 </form>
