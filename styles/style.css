@@ -247,7 +247,7 @@ main .cadastro .formulario_cadastro .btn_cadastrar:hover {
 
 main .cadastro .formulario_cadastro .avisoSenha {
     background: var(--white-transparent-less);
-    width: 86%;
+    width: 88%;
     display: none;
     color: var(--red);
     padding: 6px 12px;
