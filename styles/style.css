@@ -206,6 +206,33 @@ main .cadastro .formulario_cadastro .input_nome, .email, .senha, .repetir_senha 
     border-color: var(--blue);
 }
 
+main .cadastro .formulario_cadastro .container_exibir, .exibirSenha {
+    display: flex;
+}
+
+main .cadastro .formulario_cadastro .container_exibir {
+    align-items: center;
+    justify-content: flex-end;
+    width: 80%;
+}
+
+main .cadastro .formulario_cadastro .container_exibir .exibirSenha {
+    margin: 2px 12px;
+}
+
+main .cadastro .formulario_cadastro .container_exibir .exibirSenha span, p {
+    color: var(--green);
+}
+
+main .cadastro .formulario_cadastro .container_exibir .exibirSenha span {
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+main .cadastro .formulario_cadastro .container_exibir .exibirSenha p {
+    font-weight: bold;
+}
+
 main .cadastro .formulario_cadastro .btn_cadastrar {
     border-color: var(--yellow);
     color: var(--yellow);
