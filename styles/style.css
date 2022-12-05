@@ -243,6 +243,22 @@ main .cadastro .formulario_cadastro .btn_cadastrar:hover {
     transform: translateY(-.25em);
 }
 
+
+
+main .cadastro .formulario_cadastro .avisoSenha {
+    background: var(--white-transparent-less);
+    width: 85%;
+    display: none;
+    color: var(--red);
+    padding: 6px 12px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 0 20px;
+}
+
+
+
 main .cadastro .voltar {
     font-weight: bold;
     font-size: 22px;
