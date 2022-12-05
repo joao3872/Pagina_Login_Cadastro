@@ -247,7 +247,7 @@ main .cadastro .formulario_cadastro .btn_cadastrar:hover {
 
 main .cadastro .formulario_cadastro .avisoSenha {
     background: var(--white-transparent-less);
-    width: 85%;
+    width: 86%;
     display: none;
     color: var(--red);
     padding: 6px 12px;
@@ -568,5 +568,9 @@ main .cadastro a, .redefinir {
     
     main .cadastro .voltar:hover {
         color: var(--orangered-claro);
+    }
+
+    main .cadastro .formulario_cadastro .container_exibir .exibirSenha span, .exibirText {
+        color: var(--green-escuro);
     }
 }
