@@ -392,6 +392,12 @@ main .cadastro a, .redefinir {
         font-size: 17px;
         font-weight: bold;
     }
+
+    main .cadastro .formulario_cadastro .avisoSenha {
+        width: 77%;
+        padding: 7px 13px;
+        font-size: 17px;
+    }
 }
 
 
@@ -489,6 +495,12 @@ main .cadastro a, .redefinir {
     main .cadastro .formulario_cadastro .container_exibir .exibirSenha .exibirText {
         font-size: 18px;
         font-weight: bold;
+    }
+
+    main .cadastro .formulario_cadastro .avisoSenha {
+        width: 70%;
+        padding: 8px 14px;
+        font-size: 18px;
     }
 }
 
