@@ -668,7 +668,7 @@ main .cadastro a, .redefinir {
     }
 
     main .cadastro .formulario_cadastro .verificar_caracteres {
-        width: 75%;
+        width: 95%;
     }
 
     main .cadastro .formulario_cadastro .verificar_caracteres .caracteres p {
