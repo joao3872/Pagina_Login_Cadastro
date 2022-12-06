@@ -807,11 +807,19 @@ main .cadastro a, .redefinir {
         color: var(--orangered-claro);
     }
 
-    main .cadastro .formulario_cadastro .verificar_caracteres, .avisoSenha {
+    main .cadastro .formulario_cadastro .verificar_caracteres {
         background: var(--black-transparent);
     }
 
     main .cadastro .formulario_cadastro .verificar_caracteres .caracteres p {
-        background: var(--white);
+        color: var(--white);
+    }
+
+    main .cadastro .formulario_cadastro .verificar_caracteres .mensagemErro {
+        color: var(--orange);
+    }
+
+    main .cadastro .formulario_cadastro .avisoSenha {
+        background: var(--black-transparent);
     }
 }
