@@ -631,6 +631,42 @@ main .cadastro a, .redefinir {
         font-weight: bold;
     }
 
+    main .cadastro .formulario_cadastro .verificar_caracteres {
+        width: 60%;
+    }
+
+    main .cadastro .formulario_cadastro .verificar_caracteres .caracteres p {
+        font-size: 18px;
+    }
+
+    main .cadastro .formulario_cadastro .verificar_caracteres .caracteres p .confirma {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    main .cadastro .formulario_cadastro .verificar_caracteres .espada {
+        height: 82px;
+        margin: -38px 0 0 14px;
+    }
+
+    main .cadastro .formulario_cadastro .verificar_caracteres .caracteres .circle {
+        width: 32px;
+        height: 32px;
+    }
+
+    main .cadastro .formulario_cadastro .verificar_caracteres .caracteres .circle_cortado .parte_esquerda, .parte_direita {
+        width: 20px;
+        height: 32px;
+    }
+
+    main .cadastro .formulario_cadastro .verificar_caracteres .check {
+        font-size: 26px;
+    }
+
+    main .cadastro .formulario_cadastro .verificar_caracteres .mensagemErro {
+        font-size: 18px;
+    }
+
     main .cadastro .formulario_cadastro .avisoSenha {
         width: 70%;
         padding: 8px 14px;
