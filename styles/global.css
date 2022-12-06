@@ -39,7 +39,7 @@ body {
 main {
     width: 100%;
     height: 100%;
-    padding: 4vh 0 10vh 0;
+    padding: 2vh 0 10vh 0;
 }
 
 header {
@@ -51,6 +51,12 @@ header .container_titulo {
     align-items: center;
     justify-content: center;
     gap: 8px;
+}
+
+@media screen and (max-width: 600px) {
+    header .container_titulo.active {
+        display: none;
+    }
 }
 
 header .container_titulo .titulo {

@@ -22,42 +22,60 @@
     
     <main>
         
-        <section class="container_login">
-            
-            <div class="login">
+        <section class="cadastro cadastro1">
                 
-                <form action="#" class="formulario">
+            <form action="#" class="formulario">
                 
-                    <input type="email" placeholder="E-mail..." class="input_email" />
+                <input 
+                  type="email" 
+                  placeholder="E-mail..." 
+                  class="input_email" 
+                  required
+                />
             
-                    <input type="password" placeholder="Senha..." class="input_senha" />
+                <input 
+                  type="password" 
+                  placeholder="Senha..." 
+                  class="input_senha" 
+                  required
+                />
             
-                    <input type="submit" value="Entrar" class="btn_entrar" />
+                <input 
+                  type="submit" 
+                  value="Entrar" 
+                  class="btn_entrar" 
+                />
                     
-                </form>
-                
-                <div class="container_redefinir">
-                    <a href="#" class="redefinir" onclick="abrirModal()">Esqueceu a senha ?</a>
-                </div>
-                
-                <section class="secao_cadastro">
-                    <article class="container_button">
-                        <h1>Não possui Cadastro ?</h1>
-                
-                        <a href="cadastro.html">
-                            <button type="button" class="btn_cadastro">
-                                Cadastre-se
-                            </button>
-                        </a>
-                    </article>
-                </section>
-                
+            </form>
+   
+            <div class="container_redefinir">
+                <a href="#" class="redefinir" onclick="abrirModal()">
+                    Esqueceu a senha ?
+                </a>
             </div>
-            
+                
+            <section class="secao_cadastro">
+
+                <article class="container_button">
+
+                    <h1>Não possui Cadastro ?</h1>
+                
+                    <a href="cadastro.html">
+                        <button type="button" class="btn_cadastro">
+                            Cadastre-se
+                        </button>
+                    </a>
+
+                </article>
+
+            </section>
+                
         </section>
-        
+
+            
         
         <section class="modal_redefinir">
+
             <article class="modal">
                 
                 <div class="container_close">
@@ -67,16 +85,25 @@
                 <h1 class="titulo_modal">Redefinir Senha</h1>
                 
                 <div class="conteudo">
+
                     <p class="informacao">
                         Informe seu e-mail, para receber um link de redefinição de senha.
                     </p>
                 
-                    <input type="email" placeholder="E-mail..." class="input_redefinir" />
+                    <input 
+                      type="email" 
+                      placeholder="E-mail..." 
+                      class="input_redefinir"
+                    />
                     
-                    <button class="btn_enviar">Enviar link</button>
+                    <button class="btn_enviar">
+                        Enviar link
+                    </button>
+
                 </div>
                 
             </article>
+
         </section>
         
     </main>
