@@ -816,10 +816,11 @@ main .cadastro a, .redefinir {
     }
 
     main .cadastro .formulario_cadastro .verificar_caracteres .mensagemErro {
-        color: var(--orange);
+        color: var(--yellow);
     }
 
     main .cadastro .formulario_cadastro .avisoSenha {
         background: var(--black-transparent);
+        color: var(--yellow);
     }
 }
