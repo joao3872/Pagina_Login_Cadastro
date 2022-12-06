@@ -613,6 +613,7 @@ main .cadastro a, .redefinir {
     
     main .cadastro .voltar {
         font-size: 24px;
+        cursor: pointer;
     }
     
     main .modal_redefinir {
@@ -660,10 +661,12 @@ main .cadastro a, .redefinir {
     main .cadastro .formulario_cadastro .container_exibir .exibirSenha span {
         margin-right: 10px;
         font-size: 22px;
+        cursor: pointer;
     }
 
     main .cadastro .formulario_cadastro .container_exibir .exibirSenha .exibirText {
         font-size: 18px;
+        cursor: pointer;
         font-weight: bold;
     }
 
@@ -802,5 +805,13 @@ main .cadastro a, .redefinir {
     
     main .cadastro .voltar:hover {
         color: var(--orangered-claro);
+    }
+
+    main .cadastro .formulario_cadastro .verificar_caracteres, .avisoSenha {
+        background: var(--black-transparent);
+    }
+
+    main .cadastro .formulario_cadastro .verificar_caracteres .caracteres p {
+        background: var(--white);
     }
 }
