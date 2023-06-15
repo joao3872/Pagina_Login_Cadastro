@@ -5,9 +5,19 @@ let verificarCaracteres = document.querySelector('.verificar_caracteres')
 let espada = document.querySelector('.espada')
 
 
+let inputNome = document.querySelector('.input_nome')
+
+let inputEmail = document.querySelector('.email')
+
 let inputSenha = document.querySelector('.senha')
 
 let repetirSenha = document.querySelector('.repetir_senha')
+
+let avisoNome = document.querySelector('.avisoNome')
+
+let avisoEmail = document.querySelector('.avisoEmail')
+
+let avisoGeral = document.querySelector('.avisoGeral')
 
 
 // Círculo usado nas animações.
@@ -78,6 +88,49 @@ function fecharModal() {
 
     fechar.style.display = 'none'
 }
+
+
+
+// Faz a verificação no input de nome, se digitar caracteres que não são permitidos, aparece uma mensagem de aviso.
+inputNome.addEventListener('keyup', () => {
+    let number = /[0-9]/g
+    let especiais = /([~,!,@,#,$,%,^,&,*,-,_,+,=,?,>,<,.])/
+
+    blockCaracteres = (inputNome.value.match(number) || inputNome.value.match(especiais))
+
+    if (blockCaracteres || inputNome.value.length < 6) {
+        avisoNome.textContent = 'Não digite: símbolos especiais, números ou menos de 6 letras.'
+        avisoNome.style.display = 'block'
+
+        btnEnviar.setAttribute('disabled', true)
+        btnEnviar.classList.add('btn_disabled')
+    } else {
+        avisoNome.textContent = ''
+        avisoNome.style.display = 'none'
+    }
+})
+
+
+// Verifica o input de e-mail, se digitar caracteres não permitidos, vai aparecer a mensagem de aviso.
+inputEmail.addEventListener('keyup', () => {
+    let especiaisNot = /([,,*, ,!,",~,?,#,$,%,>,<,&,+,_,^,',},:,{,),;,(,/,-])/
+    let especialNot = ' @'
+    let especialNot2 = '@.com'
+    let especialNot3 = '@'
+
+    verificarEspeciaisNot = (inputEmail.value.match(especiaisNot) || inputEmail.value.match(especialNot) || inputEmail.value.match(especialNot2) || !inputEmail.value.match(especialNot3))
+
+    if (verificarEspeciaisNot) {
+        avisoEmail.textContent = 'Não aperte no espaço, não digite @.com, e digite o seu e-mail corretamente.'
+        avisoEmail.style.display = 'block'
+
+        btnEnviar.setAttribute('disabled', true)
+        btnEnviar.classList.add('btn_disabled')
+    } else {
+        avisoEmail.textContent = ''
+        avisoEmail.style.display = 'none'
+    }
+})
 
 
 
@@ -167,9 +220,6 @@ inputSenha.addEventListener('keyup', () => {
             }, 5300)
         }
         
-        btnEnviar.removeAttribute('disabled')
-        btnEnviar.classList.remove('btn_disabled')
-        
         mensagemErro.style.display = 'none'
     } else if (inputSenha.value.length < 8) {
         for (let c = 0; c < check.length; c++) {
@@ -231,9 +281,16 @@ function animacoes() {
 }
 
 
-// Ocultar o verificador de senha, quando o input de repetir senha, estiver focado.
+// Ocultar o verificador de senha, quando o input de repetir senha, estiver focado. E exibe uma mensagem de aviso, caso um ou mais inputs, estiver vázio.
 repetirSenha.addEventListener('focus', () => {
     verificarCaracteres.style.display = 'none'
+
+    const inputsVazio = (inputNome.value == "" || inputEmail.value == "" || inputSenha.value == "" || repetirSenha.value == "")
+
+    if (inputsVazio) {
+        avisoGeral.style.display = 'block'
+        avisoGeral.textContent = 'Por favor ! Preencha todos os campos.'
+    }
 })
 
 
@@ -249,6 +306,7 @@ repetirSenha.addEventListener('keyup', () => {
         btnEnviar.classList.remove('btn_disabled')
         
         avisoSenha.style.display = 'none'
+        avisoGeral.style.display = 'none'
     }
 })
 
@@ -272,3 +330,14 @@ exibirSenha.addEventListener('click', () => {
         exibirSenhaText.style.color = 'var(--green)'
     }
 })
+
+
+// Desabilita o submit em 0.100 segundos.
+function blockSubmit() {
+    setTimeout(() => {
+        btnEnviar.setAttribute('disabled', true)
+        btnEnviar.classList.add('btn_disabled')
+    }, 100)
+}
+
+blockSubmit()

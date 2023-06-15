@@ -23,21 +23,23 @@
         
             <section class="cadastro" id="cadastro">
                     
-                <form action="#" class="formulario_cadastro">
+                <form action="#" method="post" class="formulario_cadastro">
                         
                     <input 
                       type="text" 
                       placeholder="Nome..." 
                       class="input_nome" 
-                      required 
                     />
+
+                    <p class="avisoNome"></p>
                         
                     <input 
                       type="email" 
                       placeholder="E-mail..." 
-                      class="email" 
-                      required 
+                      class="email"
                     />
+
+                    <p class="avisoEmail"></p>
                         
                     <input 
                       type="password" 
@@ -48,11 +50,12 @@
                     <input 
                       type="password" 
                       placeholder="Repita a senha..." 
-                      class="repetir_senha" 
-                      required 
+                      class="repetir_senha"
                     />
 
                     <span class="avisoSenha">Repita a senha corretamente !</span>
+
+                    <span class="avisoGeral"></span>
 
 
                     <div class="container_exibir">

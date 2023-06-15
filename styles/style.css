@@ -245,7 +245,7 @@ main .cadastro .formulario_cadastro .btn_cadastrar:hover {
 
 
 
-main .cadastro .formulario_cadastro .avisoSenha {
+main .cadastro .formulario_cadastro .avisoSenha, .avisoGeral, .avisoNome, .avisoEmail {
     background: var(--white-transparent-less);
     width: 88%;
     display: none;
@@ -819,7 +819,7 @@ main .cadastro a, .redefinir {
         color: var(--yellow);
     }
 
-    main .cadastro .formulario_cadastro .avisoSenha {
+    main .cadastro .formulario_cadastro .avisoSenha, .avisoGeral, .avisoNome, .avisoEmail {
         background: var(--black-transparent);
         color: var(--yellow);
     }
