@@ -130,12 +130,7 @@ main .modal_redefinir .modal .container_close {
 }
 
 main .modal_redefinir .modal .container_close .close {
-    color: var(--red);
-    font-size: 22px;
-}
-
-main .modal_redefinir .modal .container_close .close:hover {
-    color: var(--red-escuro);
+    height: 22px;
 }
 
 main .modal_redefinir .modal .titulo_modal {
@@ -226,7 +221,7 @@ main .cadastro .formulario_cadastro .container_exibir .exibirSenha span, .exibir
 
 main .cadastro .formulario_cadastro .container_exibir .exibirSenha span {
     margin-right: 8px;
-    font-size: 20px;
+    height: 20px;
 }
 
 main .cadastro .formulario_cadastro .container_exibir .exibirSenha .exibirText {
@@ -373,7 +368,7 @@ main .cadastro .formulario_cadastro .verificar_caracteres .caracteres .circle_co
 main .cadastro .formulario_cadastro .verificar_caracteres .check {
     display: none;
     color: var(--green);
-    font-size: 22px;
+    height: 22px;
     animation: ocultar 3s;
 }
 
@@ -395,9 +390,8 @@ main .cadastro .formulario_cadastro .btn_cadastrar.btn_disabled {
 
 main .cadastro .voltar {
     font-weight: bold;
-    font-size: 22px;
+    height: 22px;
     margin: 0 35px;
-    color: var(--orange-red);
 }
 
 main .cadastro .voltar:hover {
@@ -469,14 +463,9 @@ main .cadastro a, .redefinir {
     }
     
     main .cadastro .voltar {
-        font-size: 23px;
-        color: var(--yellow);
+        height: 23px;
     }
 
-    main .cadastro .voltar:hover {
-        color: var(--orange-red);
-    }
-    
     main .modal_redefinir {
         padding: 17vh 0;
         overflow: hidden;
@@ -487,7 +476,7 @@ main .cadastro a, .redefinir {
     }
     
     main .modal_redefinir .modal .container_close .close {
-        font-size: 23px;
+        height: 23px;
     }
     
     main .modal_redefinir .modal .titulo_modal {
@@ -519,7 +508,7 @@ main .cadastro a, .redefinir {
 
     main .cadastro .formulario_cadastro .container_exibir .exibirSenha span {
         margin-right: 9px;
-        font-size: 21px;
+        height: 21px;
     }
 
     main .cadastro .formulario_cadastro .container_exibir .exibirSenha .exibirText {
@@ -612,7 +601,7 @@ main .cadastro a, .redefinir {
     }
     
     main .cadastro .voltar {
-        font-size: 24px;
+        height: 24px;
         cursor: pointer;
     }
     
@@ -626,7 +615,7 @@ main .cadastro a, .redefinir {
     }
     
     main .modal_redefinir .modal .container_close .close {
-        font-size: 24px;
+        height: 24px;
         cursor: pointer;
     }
     
@@ -660,7 +649,7 @@ main .cadastro a, .redefinir {
 
     main .cadastro .formulario_cadastro .container_exibir .exibirSenha span {
         margin-right: 10px;
-        font-size: 22px;
+        height: 22px;
         cursor: pointer;
     }
 
@@ -699,7 +688,7 @@ main .cadastro a, .redefinir {
     }
 
     main .cadastro .formulario_cadastro .verificar_caracteres .check {
-        font-size: 26px;
+        height: 26px;
     }
 
     main .cadastro .formulario_cadastro .verificar_caracteres .mensagemErro {
@@ -799,14 +788,6 @@ main .cadastro a, .redefinir {
         box-shadow: 0 .5em .5em -.4em var(--yellow-dessaturado);
     }
     
-    main .cadastro .voltar {
-        color: var(--yellow-escuro);
-    }
-    
-    main .cadastro .voltar:hover {
-        color: var(--orangered-claro);
-    }
-
     main .cadastro .formulario_cadastro .verificar_caracteres {
         background: var(--black-transparent);
     }
