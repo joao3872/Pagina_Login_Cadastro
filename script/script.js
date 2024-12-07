@@ -319,14 +319,14 @@ exibirSenha.addEventListener('click', () => {
         repetirSenha.type = 'text'
 
         exibirSenhaText.textContent = 'Ocultar Senha'
-        iconExibir.style.color = 'var(--orange)'
+        iconExibir.setAttribute('src', 'imagens/eye-solid2.svg')
         exibirSenhaText.style.color = 'var(--orange)'
     } else {
         inputSenha.type = 'password'
         repetirSenha.type = 'password'
 
         exibirSenhaText.textContent = 'Exibir Senha'
-        iconExibir.style.color = 'var(--green)'
+        iconExibir.setAttribute('src', 'imagens/eye-solid.svg')
         exibirSenhaText.style.color = 'var(--green)'
     }
 })
