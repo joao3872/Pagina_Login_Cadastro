@@ -19,8 +19,7 @@ let avisoEmail = document.querySelector('.avisoEmail')
 
 let avisoGeral = document.querySelector('.avisoGeral')
 
-
-let close = document.querySelector('.close')
+let closeIcon = document.querySelector('.close')
 
 let voltar = document.querySelector('.voltar')
 
@@ -350,12 +349,12 @@ blockSubmit()
 
 
 
-close.addEventListener('mouseenter', () => {
-    close.setAttribute('src', 'imagens/xmark-solid.svg')
+closeIcon.addEventListener('mouseenter', () => {
+    closeIcon.setAttribute('src', 'imagens/xmark-solid.svg')
 })
 
-close.addEventListener('mouseleave', () => {
-    close.setAttribute('src', 'imagens/close.svg')
+closeIcon.addEventListener('mouseleave', () => {
+    closeIcon.setAttribute('src', 'imagens/close.svg')
 })
 
 
