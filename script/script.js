@@ -19,9 +19,9 @@ let avisoEmail = document.querySelector('.avisoEmail')
 
 let avisoGeral = document.querySelector('.avisoGeral')
 
-let closeIcon = document.querySelector('a.close')
+let closeIcon = document.querySelector('div.close')
 
-let voltar = document.querySelector('.voltar')
+let voltar = document.querySelector('a.voltar')
 
 
 // Círculo usado nas animações.
