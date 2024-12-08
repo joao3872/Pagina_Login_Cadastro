@@ -20,6 +20,11 @@ let avisoEmail = document.querySelector('.avisoEmail')
 let avisoGeral = document.querySelector('.avisoGeral')
 
 
+let close = document.querySelector('.close')
+
+let voltar = document.querySelector('.voltar')
+
+
 // Círculo usado nas animações.
 let circleCortado = document.querySelectorAll('.circle_cortado')
 
@@ -341,3 +346,24 @@ function blockSubmit() {
 }
 
 blockSubmit()
+
+
+
+
+close.addEventListener('mouseenter', () => {
+    close.setAttribute('src', 'imagens/xmark-solid.svg')
+})
+
+close.addEventListener('mouseleave', () => {
+    close.setAttribute('src', 'imagens/close.svg')
+})
+
+
+
+voltar.addEventListener('mouseenter', () => {
+    voltar.setAttribute('src', 'imagens/arrow-left-solid2.svg')
+})
+
+voltar.addEventListener('mouseleave', () => {
+    voltar.setAttribute('src', 'imagens/arrow-left-solid.svg')
+})
