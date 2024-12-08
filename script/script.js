@@ -19,7 +19,7 @@ let avisoEmail = document.querySelector('.avisoEmail')
 
 let avisoGeral = document.querySelector('.avisoGeral')
 
-let closeIcon = document.querySelector('.close')
+let closeIcon = document.querySelector('a.close')
 
 let voltar = document.querySelector('.voltar')
 
