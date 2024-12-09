@@ -396,7 +396,6 @@ main .cadastro .voltar {
 
 main .cadastro .voltar:hover {
     margin-left: 25px;
-    color: var(--orange);
 }
 
 main .cadastro a, .redefinir {

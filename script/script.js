@@ -19,13 +19,6 @@ let avisoEmail = document.querySelector('.avisoEmail')
 
 let avisoGeral = document.querySelector('.avisoGeral')
 
-let divClose = document.querySelector('.container_close')
-
-let closeIcon = document.querySelector('.close')
-
-let linkVoltar = document.querySelector('.linkVoltar')
-
-let voltar = document.querySelector('.voltar')
 
 
 // Círculo usado nas animações.
@@ -349,24 +342,3 @@ function blockSubmit() {
 }
 
 blockSubmit()
-
-
-
-
-divClose.addEventListener('mouseenter', () => {
-    closeIcon.setAttribute('src', 'imagens/xmark-solid.svg')
-})
-
-divClose.addEventListener('mouseleave', () => {
-    closeIcon.setAttribute('src', 'imagens/close.svg')
-})
-
-
-
-linkVoltar.addEventListener('mouseenter', () => {
-    voltar.setAttribute('src', 'imagens/arrow-left-solid2.svg')
-})
-
-linkVoltar.addEventListener('mouseleave', () => {
-    voltar.setAttribute('src', 'imagens/arrow-left-solid.svg')
-})
